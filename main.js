@@ -64,9 +64,7 @@ function renderHomePage() {
   fetchEvets().then(data =>{
     addEventsOnPage(data);
   })
-
 }
-
 
 async function fetchEvets(){
   const response = await fetch('http://localhost:8080/events');
@@ -84,8 +82,6 @@ const addEventsOnPage = (events) => {
     })
   }
 }
-
-
 
 const createEventElement = (eventData)=>{
   const {eventID, eventName, eventDescription, venueDTO, startDate,endDate, ticketsCategory} = eventData;
@@ -141,7 +137,6 @@ const createEventElement = (eventData)=>{
         addToCartButton.disabled = false;
     } else{
         addToCartButton.disabled = true;
-
     }
   })
 
@@ -165,10 +160,8 @@ const createEventElement = (eventData)=>{
     } else{
       handleAddToCart(eventID,input,selectedTicketCategoryRadio,addToCartButton);
     }
-   
   });
 
- 
   return eventDiv;
 }
 
