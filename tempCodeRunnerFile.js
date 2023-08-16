@@ -1,0 +1,5 @@
+
+setupNavigationEvents();
+setupMobileMenuEvent();
+setupPopstateEvent();
+setupInitialPage();
