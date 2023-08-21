@@ -2,9 +2,20 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.main-image{
+  height: 500px;
+  width: 100%;
+  padding: 6px;
+}
+
 .events {
   justify-content: center;
   flex-wrap: wrap;
+}
+
+label {
+  display: inline-block;
+  margin-right: 10px;
 }
 
 h1 {
@@ -63,11 +74,34 @@ h1 {
 .add-to-cart-btn {
   background: #de411b;
   margin: 22px auto;
+  border-radius: 20px;
+  color: #fff;
   display: block;
-  width: 100%;
+  width: 100px;
+  height: 30px;
 }
 
 .main-content-component {
   margin-bottom: 40px;
 }
 
+.event-card{
+  padding: 20px;
+}
+
+
+.event-image{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 20px;
+}
+
+.filters{
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.filter-btn{
+  background: #de411b;
+  border-radius: 20px;
+}
