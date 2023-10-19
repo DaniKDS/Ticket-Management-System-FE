@@ -1,33 +1,29 @@
-1. Install
-```bash
-npm i
-```
+# Install
+npm install
 
-2. Start
-```
+# Start
 npm run dev
-```
 
-3. Check browser console
+# Check browser console
 
-4. # Ticket Management System
+# Ticket Management System
 
-Aplicația de Gestionare a Biletelor de Film
+Film Ticket Management Application
 
-## Descriere
+## Description
 
-Acest proiect reprezintă partea frontend a unei aplicații de gestionare a biletelor de film. Aplicația permite utilizatorilor să vizualizeze evenimente, să adauge noi evenimente, să facă comenzi, să filtreze evenimente și multe altele.
+This project represents the frontend part of a film ticket management application. The application allows users to view events, add new events, make orders, filter events, and much more.
 
-## Funcționalități
+## Features
 
-- Afișarea evenimentelor într-un format de carduri pe interfața de utilizator.
-- Adăugarea de evenimente noi prin cereri POST către backend.
-- Resetarea cardului la valorile inițiale după adăugarea unui eveniment.
-- Afișarea comenzilor utilizatorilor în pagina "Orders".
-- Gestionarea erorilor și notificări Toast pentru apelurile API.
-- Implementarea unui loader personalizat.
-- Filtrarea în timp real sau prin butoane pentru evenimente.
-- Filtrarea evenimentelor după nume, locație și tipul evenimentului, utilizând API-ul backend.
-- Actualizarea și ștergerea comenzilor.
+- Displaying events in a card format on the user interface.
+- Adding new events through POST requests to the backend.
+- Resetting the card to its initial values after adding an event.
+- Displaying user orders on the "Orders" page.
+- Handling errors and Toast notifications for API calls.
+- Implementing a custom loader.
+- Real-time or button-based event filtering.
+- Filtering events by name, location, and event type using the backend API.
+- Updating and deleting orders.
 
 ![alt schema](./schema.png)
